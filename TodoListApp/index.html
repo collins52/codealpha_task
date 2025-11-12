@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <title>Todolist app</title>
+</head>
+<body>
+    <div class="background">
+        <div class="blurBackground"></div>
+        <header>
+            <div>
+                <p id="tasks">Tasks</p>
+                <img src="./assets/cancel.svg" alt="cancel" id="cancelIcon">
+                <p class="itemSelected"><span>3</span> items selected</p>
+            </div>
+            <div id="search">
+                <input type="text" alt="search" class="search" placeholder="search">
+            </div>
+            
+        </header>
+
+        <!-- Task -->
+        <div class="taskContainer">
+            <!-- Incompleted task -->
+            <p>To be completed</p>
+            <ul id="incompleteList">
+                <li>
+                    <img src="./assets/checkCircle.svg" alt="circle" class="checkcircle">
+                    
+                    <div>
+                        <p class="item"> Buy groceries</p>
+                        <img src="./assets/checkedBox.svg" alt="box" class="checkbox">
+                    </div>
+                </li>
+                            <ul id="incompleteList">
+                <li>
+                    <img src="./assets/checkCircle.svg" alt="circle" class="checkcircle">
+                    
+                    <div>
+                        <p class="item"> Call mum while walking the dog</p>
+                        <img src="./assets/checkedBox.svg" alt="box" class="checkbox">
+                    </div>
+                </li>
+            </ul>
+
+            <!-- completed task and drop down -->
+            <div class="completed">
+                <p>Completed</p>
+                <img src="./assets/dropDown.svg" alt="drop Down">
+            </div>
+
+            <!-- Completed task -->
+            <ul id="completedList">
+                <li>
+                    <img src="./assets/checkCircle.svg" alt="circle" class="checkcircle">
+                    
+                    <div>
+                        <p class="item"> Call mum while walking the dog</p>
+                        <img src="./assets/checkedBox.svg" alt="box" class="checkbox">
+                    </div>
+                </li>
+            </ul>
+    </div>
+
+    <!-- Edit or add new task dialogue -->
+    <footer>
+        <div class="newTaskEditTask">
+            <div>
+                <img src="./assets/cancel.svg" alt="" id="cancel">
+                <p class="newTask">New Task</p>
+            </div>
+            
+            <input type="text" placeholder="Add task" class="addTask">
+            <p id="save">Save</p>
+        </div>
+    </footer>
+    <img src="./assets/delete.svg" alt="delete" class="deleteIcon">
+</div>
+</body>
+</html>
