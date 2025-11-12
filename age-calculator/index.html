@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Kantumruy+Pro:ital,wght@0,100..700;1,100..700&family=Lora:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="testLooping.js" defer></script>
+    <title>Document</title>
+</head>
+<body>
+    <div class="backgroundOverlay"></div>
+    <div class="header">
+        <h1>How old are you ?</h1>
+        <p>Find out</p>
+    </div>
+    <div class="dropDowns">
+        <div>
+            <label for="yearDropDown">Year</label>
+            <select id="yearDropDown"  style="background-color: var(--green);" value="Year"></select>
+        </div>
+
+        <!-- <div>
+            <label for="monthDropDown">Month</label>
+            <select id="monthDropDown" style="background-color: var(--brown);"></select>
+        </div>
+
+        <div>
+            <label for="dayDropDown">Day</label>
+            <select id="dayDropDown" style="background-color: var(--other-color);"></select>
+        </div> -->
+    </div>
+    <div class="dropDownValues">
+        <h1 id="year">2002</h1>
+        <h1 id="month">01</h1>
+        <h1 id="day">11</h1>
+    </div>
+    <hr>
+    <div>
+        <p>Your age is:</p>
+        <div class="ageValues">
+            <div id="calculatedYear">20 <span>Yrs</span></div>
+            <div id="calculatedMonth">3 <span>Months</span></div>
+            <div id="calculatedDay">10<span>Days</span></div>
+        </div>
+    </div>
+
+    <div id="lived">
+        <p>You've lived</p>
+        <div>
+            <div>
+                <p>Years:</p>
+                <p>Months:</p>
+                <p>Days:</p>
+            </div>
+            <div>
+                <p>20</p>
+                <p>240</p>
+                <p>7,300</p>
+            </div>
+        </div>
+
+        <button>Calculate <img src="schedule.svg" alt="schedule icon"></button>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>

@@ -1,0 +1,14 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-style: l;
+}
+
+:root{
+    --brown: #715036;
+    --green: #367171;
+    --light-brown: #EADBCF;
+    --other-color: #716236;
+    --white: #fff;
+}
