@@ -35,11 +35,19 @@
 
 #tasks{
     font-size: 20px;
+    margin: 30px 0 0 50%;
+    transform: translate(-50%);
+    width: 333.77px;
     /* display: none; */
 }
 
 .itemSelected{
     font-size: 20px;
+    display: none;
+}
+
+#cancelIcon{
+    display: none;
 }
 
 header div{
@@ -50,12 +58,12 @@ header div{
 
 .search{
 /* position: absolute; */
-    width: 300.77px;
+    width: 333.77px;
     height: 45.49px;
     left: 29.61px;
     top: 245.4px;
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
-    background-color: rgba(255, 255, 255, 0.5);
+    background-color: rgba(255, 255, 255, 0.25);
     border-radius: 18px;
     border: none;
     padding: 0 0 0 20px;
@@ -79,7 +87,7 @@ header div{
 
 /* To be completed */
 .taskContainer > p{
-    width: 300.77px;
+    width: 333.77px;
     margin: 20px auto 0 auto;
     color: black;
     font-size: 16px;
@@ -92,7 +100,7 @@ li{
     border-radius: 20px;
     justify-content: space-around;
     align-items: center;
-    width: 300.77px;
+    width: 333.77px;
     height: 60px;
     margin: 10px auto 20px auto;
     background-color: rgba(255, 255, 255, 0.25);
@@ -105,14 +113,14 @@ li div{
     align-items: center;
     justify-content: space-between;
     /* border: 1px solid black; */
-    width: 220px;
+    width: 270px;
 }
 
 .completed{
     /* border: 1px solid yellow; */
     display: flex;
     justify-content: space-between;
-    width: 300.77px;
+    width: 333.77px;
     margin-left: 50%;
     transform: translate(-50%);
     font-size: 16px;
@@ -137,7 +145,7 @@ footer{
 .newTaskEditTask div{
     display: flex;
     /* border: 1px solid red; */
-    width: 300.77px;
+    width: 333.77px;
     margin: 20px auto 0 auto;
     
 }
@@ -148,7 +156,7 @@ footer{
 }
 
 .newTaskEditTask input{
-    width: 300.77px;
+    width: 333.77px;
     margin: 20px auto 0 auto;
     display: block;
     border: none;
@@ -160,7 +168,7 @@ footer{
 }
 
 #save{
-    width: 300.77px;
+    width: 333.77px;
     margin: 15px auto 0 auto;
     /* border: 1px solid purple; */
     text-align: right;
@@ -168,9 +176,10 @@ footer{
 
 .deleteIcon{
     position: absolute;
-    bottom: 200px;
+    bottom: 30px;
     left: 50%;
     transform: translate(-50%);
+    border: 1px solid pink;
 }
 
 #cancel{
